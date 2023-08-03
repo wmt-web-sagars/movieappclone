@@ -1,0 +1,22 @@
+.dropdown_section {
+  position: relative;
+  display: inline-flex;
+  gap: 15px;
+}
+
+.Selectitm {
+    width:250px;
+    border-color: transparent;
+    
+  .ant-select-selector {
+    background-color: #173d77 !important;
+    border: none;
+  }
+  .ant-select-selection-placeholder {
+    color: grey;
+    border: none;
+  }
+  .ant-select-arrow {
+    color: #fff;
+  }
+}

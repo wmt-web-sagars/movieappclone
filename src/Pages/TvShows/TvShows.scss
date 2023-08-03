@@ -1,0 +1,28 @@
+.movies_section {
+  background-color: #04152d;
+  width: 100%;
+  margin: 0 auto;
+  padding: 75px 30px;
+
+  .movies_features {
+    display: flex;
+    align-items: center;
+  }
+
+  .movies_text {
+    h3 {
+      color: #fff;
+      font-size: 32px;
+      position: relative;
+      right: 0%;
+      padding: 20px;
+    }
+  }
+
+  .movies_cards {
+    display: grid;
+
+    gap: 10px;
+    padding: 10px;
+  }
+}

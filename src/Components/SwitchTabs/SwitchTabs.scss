@@ -1,0 +1,28 @@
+.switchtabs {
+  display: flex;
+  justify-content: end;
+  .ant-radio-group {
+    .ant-radio-button-wrapper {
+      color: black;
+      outline: none;
+      border: none;
+    }
+    .ant-radio-button-wrapper-checked {
+      background-color: #ea8b30 !important;
+      color: #ffffff;
+      outline: none;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+    .ant-radio-button-wrapper-checked:not(
+        .ant-radio-button-wrapper-disabled
+      ):hover::before,
+    .ant-radio-button-wrapper-checked:not(
+        .ant-radio-button-wrapper-disabled
+      )::before {
+      background-color: transparent !important;
+    }
+  }
+}

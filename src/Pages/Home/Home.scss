@@ -1,0 +1,28 @@
+.homepage_section {
+  background-color: #04152d;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 30px;
+  overflow-x: hidden;
+ 
+ 
+  h3 {
+    color: #ffffff;
+    display: flex;
+    justify-content: start;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px 130px;
+    margin-left: 70px;
+   
+  }
+  .tabbtn {
+   display: flex;
+   justify-content: end;
+   margin:0 35px 50px
+   }
+  .slick-track {
+    margin-left: 48px;
+  }
+}

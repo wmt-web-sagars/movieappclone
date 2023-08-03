@@ -1,0 +1,6 @@
+export const home="/"
+export const movies="/movies"
+export const tvshows="/tvshows"
+export const signup="/signup"
+export const signin="/signin"
+export const moviedetails="/moviedetails"

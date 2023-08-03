@@ -1,0 +1,56 @@
+.herobanner_section {
+  background: url("../../../assets/img/bgimg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  //  background-color: #04152D;
+  backdrop-filter: blur(3.5px);
+  opacity: 0.9;
+  //  width:100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1;
+    font-family: "Times New Roman", Times, serif;
+  }
+  p {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 0.9;
+  }
+}
+
+.search_bar {
+  padding-top: 35px;
+  position: relative;
+  width: 60%;
+}
+
+.ant-btn-primary.ant-btn-lg.ant-input-search-button {
+  background-color: rgb(235, 111, 43);
+  height: 70px;
+  width: 150px;
+  &:hover {
+    background-color: rgb(235, 111, 43);
+  }
+}
+.ant-input-lg {
+  padding: 18px 18px;
+}
+.ant-input-group-wrapper {
+  border-radius: 15px;
+  position: relative;
+  &:hover {
+    border-color: #ffffff;
+  }
+}
+.ant-input-affix-wrapper > input.ant-input {
+  height: 55px;
+}
